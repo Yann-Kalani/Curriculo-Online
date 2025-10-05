@@ -1,12 +1,26 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 body {
     background-color: black;
     color:#F6F6F6;
+    box-sizing: border-box;
+    height: 100vh;
+}
+.conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15%;
+}
+.conteudo__titulo{
+
+}
+.conteudo__principal__imagem{
+    width: 400px;
+    height: 480px;
 }
 .titulo-destaque{
     color:#22D4FD;
-}
+}   
